@@ -1,52 +1,79 @@
-
 @font-face {
-    font-family: 'preahvihear';
-    src: url(../preahvihear/Preahvihear-Regular.ttf);
+  font-family: 'preahvihear';
+  src: url(../preahvihear/Preahvihear-Regular.ttf);
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 
 
 
-/* Header */
+/* --------------------Header------------------------------ */
 
-header{
-    padding-top: 110px;
-    background-color:rgb(19, 18, 18) ;
-    color: rgb(232, 152, 174);
-  }
-  .navbar-brand {
-    padding: 0;
-  }
-  .navbar-nav .nav-link {
-    color: #e898ad;
-    margin: 20px;
-    font-family: 'preahvihear';
-    font-size: 1.5rem;
-  }
+header {
 
-  .navbar-nav .nav-link:hover{
-    color: white;
-    transform: scale(1.5);
-    text-decoration: underline;
-  }
+  background-color: rgb(19, 18, 18);
+  color: rgb(232, 152, 174);
+}
 
-  .navbar-brand img {
-    width: 100px;
-    height: auto;
-    background-color: rgb(19, 18, 18) ;
-  }
-  
-  .navbar-toggler-icon {
-    background-color: #e898ad;
+.navbar-brand {
+  padding: 0;
+}
 
-  }
+.navbar-nav .nav-link {
+  color: #e898ad;
+  margin: 20px;
+  font-family: 'preahvihear';
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: white;
+  transform: scale(1.5);
+  text-decoration: underline;
+}
+
+.navbar-brand img {
+  width: 100px;
+  height: auto;
+  background-color: rgb(19, 18, 18);
+}
+
+.navbar-toggler-icon {
+  background-color: #e898ad;
+
+}
+
+/* ------------------- fin del header -------------------------------- */
+
+
+/* --------------------- Body index -------------------------------- */
+.paginadeinicio {
+  padding: 20px;
+}
+
+.paginadeinicio{
+  color: #e898ad;
+  font-family: 'preahvihear';
+}
+
+.paginadeinicio h1{
+  font-size: 8rem;
+
+}
+
+.paginadeinicio h2{
+  font-size: 4rem;
+}
+
+.paginadeinicio p{
+  font-size: 2rem;
+}
