@@ -19,7 +19,6 @@ html {
 /* --------------------Header------------------------------ */
 
 header {
-
   background-color: rgb(19, 18, 18);
   color: rgb(232, 152, 174);
 }
@@ -54,26 +53,108 @@ header {
 
 /* ------------------- fin del header -------------------------------- */
 
+/* -------------------- footer ---------------------------------------*/
+footer {
+  background-color: rgb(19, 18, 18);
+  padding: 20px;
+  text-align: center;
+}
+
+.mensaje-agradecimiento {
+  color: #e898ad;
+  font-family: 'preahvihear';
+  margin-bottom: 20px;
+}
+
+.developer,
+.copy {
+  color: white;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+
+  .developer,
+  .copy {
+    text-align: left;
+  }
+
+  .copy {
+    float: right;
+  }
+}
+
+
+/* -------------------- fin del footer ----------------------------*/
+
 
 /* --------------------- Body index -------------------------------- */
 .paginadeinicio {
   padding: 20px;
 }
 
-.paginadeinicio{
+.paginadeinicio {
   color: #e898ad;
   font-family: 'preahvihear';
 }
 
-.paginadeinicio h1{
+.paginadeinicio h1 {
   font-size: 8rem;
+  margin: 15px;
 
 }
 
-.paginadeinicio h2{
+.paginadeinicio h2 {
+  font-size: 4rem;
+  margin-top: 5px;
+  margin-bottom: 20px;
+
+}
+
+.paginadeinicio p {
+  font-size: 2rem;
+}
+
+/*---------------- body cursos ---------*/
+.titulo-cursos {
+  color: #e898ad;
+  font-family: 'preahvihear';
+  font-size: 5rem;
+}
+
+.introduccion {
+  color: #e898ad;
+  font-family: 'preahvihear';
+  font-size: 1.5rem;
+}
+
+.row {
+  color: #e898ad;
+  font-family: 'preahvihear';
+  display: flex;
+  align-items: center;
+}
+
+.row h2 {
   font-size: 4rem;
 }
 
-.paginadeinicio p{
-  font-size: 2rem;
+.row h3 {
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+.row p {
+  font-size: 1.5rem;
+}
+
+
+.row img {
+  width: 100px;
+  border-radius: 20%;
+  transition: all .4s ease-in-out;
+}
+
+.row img:hover {
+  transform: scale(2.0);
 }
