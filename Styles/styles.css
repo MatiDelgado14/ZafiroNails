@@ -158,3 +158,23 @@ footer {
 .row img:hover {
   transform: scale(2.0);
 }
+
+/* ----------------------- fin de body cursos ------- */
+
+
+/* --------------------- body inscripciones -------------- */
+
+.mb-4 {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: #e898ad;
+  font-family: 'preahvihear';
+  font-size: 20fr;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: 'preahvihear';
+  color: black;
+}
