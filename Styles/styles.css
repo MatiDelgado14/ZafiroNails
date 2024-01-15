@@ -178,3 +178,43 @@ footer {
   font-family: 'preahvihear';
   color: black;
 }
+
+/* ---------------------  fin body inscripciones -------------- */
+
+/* --------------------- body contactos -------------- */
+
+.redes-conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 700px;
+
+}
+
+.redes-conteiner ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.redes-conteiner ul li {
+  margin: 10px;
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: black;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+.redes-conteiner ul li a i {
+  color: #e898ad;
+}
+
+.redes-conteiner ul li:hover {
+  transform: scale(1.2);
+}
