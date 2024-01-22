@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'preahvihear';
+    src: url(../preahvihear/Preahvihear-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+//variables// 
+$rosa: #e898ad;
+$font: 'preahvihear';
+
+
+/* --------------------Header------------------------------ */
+
+header {
+    background-color: rgb(19, 18, 18);
+    color: rgb(232, 152, 174);
+}
+
+.navbar-brand {
+    padding: 0;
+
+    img {
+        width: 100px;
+        height: auto;
+        background-color: rgb(19, 18, 18);
+    }
+}
+
+.navbar-nav .nav-link {
+    color: $rosa;
+    margin: 20px;
+    font-family: $font;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: white;
+    transform: scale(1.5);
+    text-decoration: underline;
+}
+
+.navbar-toggler-icon {
+    background-color: $rosa;
+
+}
+
+/* ------------------- fin del header -------------------------------- */
+
+/* -------------------- footer ---------------------------------------*/
+
+footer {
+    background-color: rgb(19, 18, 18);
+    padding: 20px;
+    text-align: center;
+}
+
+.mensaje-agradecimiento {
+    color:$rosa;
+    font-family: $font;
+    margin-bottom: 20px;
+}
+
+.developer,
+.copy {
+    color: white;
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+
+    .developer,
+    .copy {
+        text-align: left;
+    }
+
+    .copy {
+        float: right;
+    }
+}
+
+/* -------------------- fin del footer ----------------------------*/

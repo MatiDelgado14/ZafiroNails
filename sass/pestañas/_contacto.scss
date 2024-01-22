@@ -1,0 +1,49 @@
+/* --------------- body contactos ----------- */
+
+//variables// 
+$rosa: #e898ad;
+$font: 'preahvihear';
+
+.redes-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 700px;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+
+        li {
+            margin: 10px;
+            text-decoration: none;
+            font-size: 28px;
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            background-color: black;
+            border-radius: 50%;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+            transition: all .4s ease-in-out;
+
+            a i {
+                color:$rosa;
+            }
+        }
+    }
+}
+
+.redes-conteiner ul li:hover {
+    transform: scale(1.2);
+}
+
+.titulo-contactos {
+    color:$rosa;
+    font-family: $font;
+    font-size: 3rem;
+    margin: 20px;
+}
+
+/*---------- fin body contactos -----------*/

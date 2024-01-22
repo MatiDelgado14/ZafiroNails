@@ -1,0 +1,44 @@
+/*-------- inicio body nuestros trabajos -----------*/
+
+//variables// 
+$rosa: #e898ad;
+$font: 'preahvihear';
+
+.nuestrostrabajos {
+    background-color: rgb(179, 146, 186);
+}
+
+.contactanos1 {
+    color: black;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+.contactanos1:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+.titulonuestrostrabajos {
+    color: $rosa;
+    font-family: $font;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.subtitulonuestrostrabajos {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color:$rosa;
+    font-family: $font;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.carrusel {
+    display: flex;
+    align-items: center;
+
+}
+
+/* --------- fin body nuestros trabajos -------------*/

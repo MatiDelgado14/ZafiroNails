@@ -1,0 +1,49 @@
+/*-----------body cursos ---------*/
+
+//variables// 
+$rosa: #e898ad;
+$font: 'preahvihear';
+
+.titulo-cursos {
+    color:$rosa;
+    font-family: $font;
+    font-size: 5rem;
+}
+
+.introduccion {
+    color: $rosa;
+    font-family: $font;
+    font-size: 1.5rem;
+}
+
+.row {
+    color: $rosa;
+    font-family: $font;
+    display: flex;
+    align-items: center;
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+        text-decoration: underline;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    img {
+        width: 100px;
+        border-radius: 20%;
+        transition: all .4s ease-in-out;
+    }
+}
+
+.row img:hover {
+    transform: scale(2.0);
+}
+
+/* ---------- fin de body cursos ------- */

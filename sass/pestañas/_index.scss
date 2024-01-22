@@ -1,0 +1,34 @@
+/* --------------------- Body index -------------------------------- */
+
+//variables// 
+$rosa: #e898ad;
+$font: 'preahvihear';
+
+.paginadeinicio {
+    padding: 20px;
+    color:$rosa;
+    font-family: $font;
+
+    h1 {
+        font-size: 8rem;
+        margin: 15px;
+    }
+
+    h2 {
+        font-size: 4rem;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+}
+
+.imagen-index {
+    width: 300px;
+    border-radius: 20%;
+}
+
+
+/* --------  fin Body index ---------- */
