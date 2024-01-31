@@ -2,6 +2,7 @@
   font-family: "preahvihear";
   src: url(../multimedia/preahvihear/Preahvihear-Regular.ttf);
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +21,7 @@ header {
 .navbar-brand {
   padding: 0;
 }
+
 .navbar-brand img {
   width: 100px;
   height: auto;
@@ -64,14 +66,17 @@ footer {
 }
 
 @media (min-width: 768px) {
+
   .developer,
   .copy {
     text-align: left;
   }
+
   .copy {
     float: right;
   }
 }
+
 /* -------------------- fin del footer ----------------------------*/
 /* --------------------- Body index -------------------------------- */
 .paginadeinicio {
@@ -79,15 +84,18 @@ footer {
   color: #e898ad;
   font-family: "preahvihear";
 }
+
 .paginadeinicio h1 {
   font-size: 8rem;
   margin: 15px;
 }
+
 .paginadeinicio h2 {
   font-size: 4rem;
   margin-top: 5px;
   margin-bottom: 20px;
 }
+
 .paginadeinicio p {
   font-size: 2rem;
 }
@@ -96,6 +104,14 @@ footer {
   width: 300px;
   border-radius: 20%;
 }
+
+.parrafo {
+  box-shadow: 2px 2px 5px rgba(236, 116, 200, 0.5);
+  border-radius: 10%;
+  text-align: center;
+  margin: 20px;
+}
+
 
 /* --------  fin Body index ---------- */
 /*-----------body cursos ---------*/
@@ -117,16 +133,20 @@ footer {
   display: flex;
   align-items: center;
 }
+
 .row h2 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
+
 .row h3 {
   font-size: 3rem;
   text-decoration: underline;
 }
+
 .row p {
   font-size: 1.5rem;
 }
+
 .row img {
   width: 100px;
   border-radius: 20%;
@@ -159,6 +179,7 @@ footer {
   font-family: "preahvihear";
   font-size: 5rem;
   text-align: center;
+  margin: 20px;
 }
 
 .subtitulonuestrostrabajos {
@@ -173,6 +194,14 @@ footer {
 .carrusel {
   display: flex;
   align-items: center;
+}
+
+.carousel-item img {
+  transition: none;
+}
+
+.carousel-item img:hover {
+  transform: none;
 }
 
 /* --------- fin body nuestros trabajos -------------*/
@@ -200,11 +229,13 @@ footer {
   align-items: center;
   min-width: 700px;
 }
+
 .redes-conteiner ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
 }
+
 .redes-conteiner ul li {
   margin: 10px;
   text-decoration: none;
@@ -218,6 +249,7 @@ footer {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   transition: all 0.4s ease-in-out;
 }
+
 .redes-conteiner ul li a i {
   color: #e898ad;
 }
