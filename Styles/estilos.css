@@ -107,7 +107,7 @@ footer {
 
 .parrafo {
   box-shadow: 2px 2px 5px rgba(236, 116, 200, 0.5);
-  border-radius: 10%;
+  border-radius: 25%;
   text-align: center;
   margin: 20px;
 }
@@ -223,26 +223,24 @@ footer {
 
 /* ------------- fin body inscripciones ----- */
 /* --------------- body contactos ----------- */
-.redes-conteiner {
+#redes-conteiner {
   display: flex;
-  justify-content: center;
   align-items: center;
-  min-width: 700px;
 }
 
-.redes-conteiner ul {
+.list-inline{
   display: flex;
-  justify-content: space-around;
   list-style-type: none;
+  justify-content: center;
 }
 
-.redes-conteiner ul li {
+.list-inline-item {
+  justify-content: center;
   margin: 10px;
   text-decoration: none;
-  font-size: 28px;
-  width: 60px;
+  font-size: 24px;
   height: 60px;
-  line-height: 60px;
+  width: 60px;
   text-align: center;
   background-color: black;
   border-radius: 50%;
@@ -250,13 +248,17 @@ footer {
   transition: all 0.4s ease-in-out;
 }
 
-.redes-conteiner ul li a i {
+
+.list-inline-item a i {
+  text-align: center;
+  justify-content: center;
   color: #e898ad;
 }
 
-.redes-conteiner ul li:hover {
+.list-inline-item:hover {
   transform: scale(1.2);
 }
+
 
 .titulo-contactos {
   color: #e898ad;
@@ -264,6 +266,7 @@ footer {
   font-size: 3rem;
   margin: 20px;
 }
+
 
 /*---------- fin body contactos -----------*/
 

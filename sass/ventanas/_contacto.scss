@@ -6,41 +6,42 @@ $font: 'preahvihear';
 
 .redes-conteiner {
     display: flex;
-    justify-content: center;
     align-items: center;
-    min-width: 700px;
+  }
 
-    ul {
-        display: flex;
-        justify-content: space-around;
-        list-style-type: none;
+.list-inline {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
 
-        li {
-            margin: 10px;
-            text-decoration: none;
-            font-size: 28px;
-            width: 60px;
-            height: 60px;
-            line-height: 60px;
-            text-align: center;
-            background-color: black;
-            border-radius: 50%;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-            transition: all .4s ease-in-out;
+.list-inline-item {
+    justify-content: center;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    background-color: black;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.4s ease-in-out;
 
-            a i {
-                color:$rosa;
-            }
-        }
+    a i {
+        text-align: center;
+        justify-content: center;
+        color: #e898ad;
     }
 }
 
-.redes-conteiner ul li:hover {
+
+.list-inline-item:hover {
     transform: scale(1.2);
 }
 
 .titulo-contactos {
-    color:$rosa;
+    color: $rosa;
     font-family: $font;
     font-size: 3rem;
     margin: 20px;
